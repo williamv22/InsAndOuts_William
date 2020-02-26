@@ -1,6 +1,7 @@
-/* William Valentin, "Grab A Slice", 
+/* William Valentin, "Pizza Party", 
 Move your mouse to the right, top left and bottom left.
 Press the mouse to change colors.
+Press any key and mouse for delivery
 */
 
 //creating global variables
