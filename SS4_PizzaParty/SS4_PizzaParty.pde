@@ -118,32 +118,3 @@ void mousePressed(){
   c = random(255);
   d = random(255);
 }
-
-
-
-
-
-
-/*
-PImage pizzaBox;
-
-
-void setup(){
-  size(900, 600);
-  noStroke();
-  pizzaBox = loadImage("pizzaBox.png");
-  imageMode(CENTER);
-}
-
-void draw () {
-  background(0);
-  
-   // rotate(radians(22));
-    for(int i=0; i<=10; i++){
-      image(pizzaBox, 200 + i*50, height/2, 200, 200);
-     
-    }
-    
-    
-  }
-*/
