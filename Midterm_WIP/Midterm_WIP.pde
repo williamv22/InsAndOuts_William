@@ -145,13 +145,6 @@ void preGame() {
 // This is for the second state change ----------------------------------
 void game() {
   background(r, g, b);
-  //text("what a fun game.", width/2, height/2);
-  //ellipse(mouseX, ellipseY, 100, 100);
-  //ellipseY++;
-  //when ellipse reaches bottom of screen the game is over
- // if (ellipseY>height+50) { 
-   // state="gameOver";
-   // ellipseY=0; //reset ellipseY value
     for(int i = 0; i < Pizzas.length; i++) {
     Pizzas[i].ascend();
     Pizzas[i].display();
