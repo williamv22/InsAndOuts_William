@@ -25,8 +25,8 @@ void loop() {
 
     else if(val>120) {
     digitalWrite(8,HIGH);
-    digitalWrite(5,LOW);
-    digitalWrite(4,LOW);
+    digitalWrite(5,HIGH);
+    digitalWrite(4,HIGH);
     digitalWrite(2,LOW);
     //Serial.println("1 LED ON!");
    }
@@ -37,6 +37,13 @@ void loop() {
     digitalWrite(4,LOW);
     digitalWrite(2,LOW);
     //Serial.println("2 LED ON!");
+   }
+
+   else if(val>80) {
+    digitalWrite(8,HIGH);
+    digitalWrite(5,LOW);
+    digitalWrite(4,LOW);
+    digitalWrite(2,LOW);
    }
 
    else {
