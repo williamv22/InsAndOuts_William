@@ -34,9 +34,10 @@ void draw() {
       d[i]=d[i]+ 1;
     }
 
-    if (millis()-timer>1400) {
+    if (millis()-timer>140) {
       max=max+1; 
       timer = millis();
     }
   }
+  println(val);
 }

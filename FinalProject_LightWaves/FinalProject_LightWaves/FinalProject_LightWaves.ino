@@ -20,7 +20,7 @@ void loop() {
     digitalWrite(5,HIGH);
     digitalWrite(4,HIGH);
     digitalWrite(2, HIGH);
-    Serial.println("lED ON!");
+    //Serial.println("lED ON!");
    }
 
     else if(val>120) {
@@ -28,7 +28,7 @@ void loop() {
     digitalWrite(5,LOW);
     digitalWrite(4,LOW);
     digitalWrite(2,LOW);
-    Serial.println("1 LED ON!");
+    //Serial.println("1 LED ON!");
    }
 
     else if(val>100) {
@@ -36,7 +36,7 @@ void loop() {
     digitalWrite(5,HIGH);
     digitalWrite(4,LOW);
     digitalWrite(2,LOW);
-    Serial.println("2 LED ON!");
+    //Serial.println("2 LED ON!");
    }
 
    else {
@@ -44,7 +44,7 @@ void loop() {
     digitalWrite(5,LOW);
     digitalWrite(4,LOW);
     digitalWrite(2,LOW);
-    Serial.println("LED OFF!");
+    //Serial.println("LED OFF!");
    }
 
    Serial.write(val);
